@@ -1,0 +1,57 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: #7b6b6b;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-family: fantasy;
+}
+
+h2 {
+  color: black;
+  font-family: fantasy;
+}
+
+#game-board {
+  position: relative;
+  background: black;
+  height: 500px;
+  border-radius: 100%;
+  display: flex;
+  flex: flex-wrap;
+}
+
+#color-red {
+  background: red;
+  height: 200px;
+  width: 200px;
+  border-top-left-radius: 100%;
+}
+
+#color-green {
+  background: green;
+  height: 200px;
+  width: 200px;
+  border-top-right-radius: 100%;
+
+}
+
+#color-yellow {
+  background: yellow;
+  height: 200px;
+  width: 200px;
+  border-bottom-left-radius: 100%;
+}
+
+#color-blue {
+  background: blue;
+  height: 200px;
+  width: 200px;
+  border-bottom-right-radius: 100%;
+}
